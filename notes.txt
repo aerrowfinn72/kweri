@@ -1,5 +1,7 @@
 Notes:
 Maybe just upvote, no downvote of questions
-Store who upvoted each question so one person cannot vote multiple times on same question
+Store who upvoted each question so one person cannot vote multiple times on same question - Question x User table
 Tab for most recent vs most upvoted
 For a class period store who/how many in lecture to get percentages for confusion counter
+Get a working version as if there is only one constantly continuing class
+Big step is to scale up to multiple different sessions in multiple different classes
