@@ -31,11 +31,14 @@
 
 <template name="question">
   <li>
-    <span class="text"> {{qText}}</span>
-    <span class="scoreContainer">
+    <div class = "infoContainer">
+      <div class="text">{{qText}}</div>
+      <div class="dateText">{{createdAt}}</div>
+    </div>
+    <div class="scoreContainer">
       <button class="arrowDown">&lt;</button>
-      <span class="value"> {{value}}</span>
+      <span class="value">{{value}}</span>
       <button class="arrowUp">&gt;</button>
-    </span>
+    </div>
   </li>
 </template>

@@ -1,9 +1,16 @@
 Questions = new Mongo.Collection("questions");
 
+function dateToString( date ) {
+  options = {
+    hour: 'numeric', minute: 'numeric', timeZoneName: 'short'
+  };
+  return new Intl.DateTimeFormat('en-US', options).format(date)
+}
+
 if (Meteor.isClient) {
   Template.body.helpers({
     questions: function() {
-      return Questions.find();
+      return Questions.find({}, {sort: {value: -1, createdAt: -1}});
     }
   });
 

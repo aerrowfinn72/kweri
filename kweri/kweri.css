@@ -102,6 +102,7 @@ ul {
 }
 
 li {
+  background: #FAFAFA;
   width: 100%;
   position: relative;
   list-style: none;
@@ -109,11 +110,19 @@ li {
   border-bottom: #eee solid 2px;
 }
 
+li .infoContainer {
+  width: 50%;
+  display: inline-block;
+  vertical-align : middle;
+}
+
 li .scoreContainer {
+  display: inline-block;
   background: #777777;
   padding: 5px 10px;
   border: none;
   border-radius: 4px;
+  vertical-align : middle;
 }
 
 li .value {
@@ -125,6 +134,10 @@ li .value {
 
 li .text {
   display: inline-block;
-  width: 50%;
   margin-left: 10px;
+}
+
+li .dateText {
+  margin-left: 10px;
+  font-size: 0.8em;
 }
