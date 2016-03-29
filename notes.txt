@@ -1,0 +1,5 @@
+Notes:
+Maybe just upvote, no downvote of questions
+Store who upvoted each question so one person cannot vote multiple times on same question
+Tab for most recent vs most upvoted
+For a class period store who/how many in lecture to get percentages for confusion counter
